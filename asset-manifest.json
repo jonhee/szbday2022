@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/szbday2022/static/css/main.75bb8b43.css",
+    "main.js": "/szbday2022/static/js/main.0e2f01b3.js",
+    "static/js/787.b79898b4.chunk.js": "/szbday2022/static/js/787.b79898b4.chunk.js",
+    "static/media/background.mp4": "/szbday2022/static/media/background.45187349e08b8e5b22fa.mp4",
+    "static/media/letterbg.mp4": "/szbday2022/static/media/letterbg.5e6a21b0c0bf525e97a2.mp4",
+    "static/media/house.gif": "/szbday2022/static/media/house.bc598063fef261d65d3e.gif",
+    "static/media/hug.gif": "/szbday2022/static/media/hug.411d8ad5850274d7349c.gif",
+    "static/media/final.gif": "/szbday2022/static/media/final.bb19a60cd9cb8ea80443.gif",
+    "static/media/bg.jpg": "/szbday2022/static/media/bg.2c98d320027bfbe56993.jpg",
+    "static/media/Letter1.png": "/szbday2022/static/media/Letter1.fe8e2713a4a858375c44.png",
+    "static/media/Music2.png": "/szbday2022/static/media/Music2.bb31380d22db6d37781e.png",
+    "static/media/Game1.png": "/szbday2022/static/media/Game1.3de2cd95b75373103adb.png",
+    "static/media/Music1.png": "/szbday2022/static/media/Music1.43d95c3dc150ba9df8b3.png",
+    "static/media/Letter2.png": "/szbday2022/static/media/Letter2.2184282c7f472a5ef16c.png",
+    "static/media/Game2.png": "/szbday2022/static/media/Game2.db87d71244640e1ded5b.png",
+    "static/media/Shows2.png": "/szbday2022/static/media/Shows2.903eafd5a9d6e0781247.png",
+    "static/media/coding.gif": "/szbday2022/static/media/coding.7d324d199fc9a0830481.gif",
+    "static/media/Gift2.png": "/szbday2022/static/media/Gift2.d729462ae6c37c6cfc8a.png",
+    "static/media/Gift1.png": "/szbday2022/static/media/Gift1.eb6579be0a373928c25c.png",
+    "static/media/Shows1.png": "/szbday2022/static/media/Shows1.fb913475a1978515ea52.png",
+    "static/media/bday1.gif": "/szbday2022/static/media/bday1.6d6d97dc3f44792938d3.gif",
+    "static/media/letterbg.png": "/szbday2022/static/media/letterbg.19d2123a19d015195a52.png",
+    "static/media/logo.svg": "/szbday2022/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/szbday2022/index.html",
+    "main.75bb8b43.css.map": "/szbday2022/static/css/main.75bb8b43.css.map",
+    "main.0e2f01b3.js.map": "/szbday2022/static/js/main.0e2f01b3.js.map",
+    "787.b79898b4.chunk.js.map": "/szbday2022/static/js/787.b79898b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75bb8b43.css",
+    "static/js/main.0e2f01b3.js"
+  ]
+}

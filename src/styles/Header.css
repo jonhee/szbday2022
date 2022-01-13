@@ -1,0 +1,17 @@
+.headerFlex{
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+}
+
+.headerFlex ul{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerFlex li{
+    display: flex;
+    justify-content: space-between;
+}

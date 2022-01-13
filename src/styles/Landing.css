@@ -1,0 +1,101 @@
+
+#bg {
+    position: fixed; 
+    z-index: -1;
+    width: 100%;
+    min-height: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.landingFlex{
+    display: flex;
+    flex-direction: column;
+}
+
+.choicesFlex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.choicesFlex ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+}
+
+
+.choicesFlex li{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    margin: 3%;
+    background-color: white;
+}
+
+.choicesFlex li:hover{
+        background-color: rgb(248, 229, 229);
+}
+
+.choicesFlex .imgs{  
+    position:relative;
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.choicesFlex .shows{
+    background-image: url("../images/Shows1.png");
+}
+
+.choicesFlex .shows:hover{  
+    background-image: url("../images/Shows2.png");
+}
+
+.choicesFlex .games{
+    background-image: url("../images/Game1.png");
+}
+
+.choicesFlex .games:hover{  
+    background-image: url("../images/Game2.png");
+}
+
+.choicesFlex .music{
+    background-image: url("../images/Music1.png");
+}
+
+.choicesFlex .music:hover{  
+    background-image: url("../images/Music2.png");
+}
+
+.choicesFlex .gifts{
+    background-image: url("../images/Gift1.png");
+}
+
+.choicesFlex .gifts:hover{  
+    background-image: url("../images/Gift2.png");
+}
+
+.choicesFlex .letter{
+    background-image: url("../images/Letter1.png");
+}
+
+.choicesFlex .letter:hover{  
+    background-image: url("../images/Letter2.png");
+}

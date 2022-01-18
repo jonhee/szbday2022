@@ -1,8 +1,11 @@
 .headerFlex{
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
-    height: 64px;
+    height: 36px;
     background-color: pink;
+    text-align: center;
 }
 .leftFlexS img{
     position: relative;
@@ -13,6 +16,8 @@
     height: 100%;
 }
 .headerFlex ul{
+    margin-top :3px;
+    text-align: center;
     height: 100%;
     padding: 0;
     width: 50%;
@@ -49,5 +54,5 @@
     align-items: center;
     font-weight: bold;
     text-shadow: rgb(255, 255, 255) 1px 0 10px;
-    font-size: 24px;
+    font-size: 2vw;
 }

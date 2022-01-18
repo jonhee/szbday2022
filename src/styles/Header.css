@@ -6,6 +6,7 @@
     height: 48px;
     background-color: pink;
     text-align: center;
+    z-index: 2;
 }
 .leftFlexS img{
     position: relative;

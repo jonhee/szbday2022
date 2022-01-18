@@ -32,7 +32,7 @@ const Landing = () => {
     },[]);
 
     return (
-        <div>
+        <div class = "whole">
             <video autoPlay muted loop id="bg">
                 <source src={Video} type="video/mp4"/>
             </video>

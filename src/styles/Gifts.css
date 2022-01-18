@@ -1,4 +1,104 @@
 .giftBox{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options{
+    margin-top: 50px;
+    width: 900px;
+    height: 600px;
+    display: flex;
+    border-radius: 50px;
+    background-color: white;
     justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+}
+
+.obox{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    text-align: center;
+}
+
+.obox2{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    text-shadow: rgb(253, 229, 229) 1px 0 10px;
+}
+
+.giftlabel{
+    border-radius: 50px;
+    border-style: solid;
+    width: 250px;
+    height: 250px;
+}
+
+.giftlabel:hover{
+    border-color: rgb(255, 200, 250);
+}
+
+.giftimg{
+    border-radius: 50px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.giftimg:hover{
+    cursor: pointer;
+}
+
+.giftTop{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+.giftButton{
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(134, 180, 134);
+    width: 100px;
+    height: 30px;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+.giftButton:hover{
+    cursor: pointer;
+    background-color: rgb(177, 209, 176);
+}
+
+.buttonFlex{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.saveButton{
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(231, 124, 124);
+    width: 100px;
+    height: 50px;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+.saveButton:hover{
+    cursor: pointer;
+    background-color: rgb(255, 136, 136);
+}
+
+.descriptionText{
+    text-align: center;
+    font-size: 24px;
 }

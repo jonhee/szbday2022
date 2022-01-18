@@ -15,12 +15,12 @@ function App() {
     <div>
       <Header></Header>
       <Routes>
-      <Route path = '/' exact element={<Landing/>}/>
-      <Route path = '/games' exact element={<Games/>}/>
-      <Route path = '/gifts' exact element={<Gifts/>}/>
-      <Route path = '/letter' exact element={<Letter/>}/>
-      <Route path = '/music' exact element={<Music/>}/>
-      <Route path = '/shows' exact element={<Shows/>}/>
+      <Route path = '/szbday2022/' exact element={<Landing/>}/>
+      <Route path = '/szbday2022/games' exact element={<Games/>}/>
+      <Route path = '/szbday2022/gifts' exact element={<Gifts/>}/>
+      <Route path = '/szbday2022/letter' exact element={<Letter/>}/>
+      <Route path = '/szbday2022/music' exact element={<Music/>}/>
+      <Route path = '/szbday2022/shows' exact element={<Shows/>}/>
       </Routes>
     </div>
     </Router>

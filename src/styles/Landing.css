@@ -32,6 +32,22 @@
     justify-content: center;
 }
 
+.musicToggle{
+    position: absolute;
+    right: 0%;
+    height: 25px;
+    border-radius: 50px;
+    text-align: center;
+    width: 100px;
+    cursor: pointer;
+    color: white;
+    text-shadow: rgb(97, 109, 216) 1px 0 10px;
+    background-color: rgb(184, 209, 255);
+}
+
+.musicToggle:hover{
+    background-color: rgb(173, 195, 236);
+}
 
 .choicesFlex li{
     display: flex;
@@ -45,7 +61,7 @@
     background-color: white;
 }
 
-.choicesFlex li:hover{
+.choicesFlex .unlockedli:hover{
         background-color: rgb(248, 229, 229);
 }
 
@@ -98,4 +114,12 @@
 
 .choicesFlex .letter:hover{  
     background-image: url("../images/Letter2.png");
+}
+
+.choicesFlex .locked{
+    background-image: url("../images/Locked.png");
+}
+
+.lockedli:hover{
+    background-color: rgb(156, 155, 155);
 }

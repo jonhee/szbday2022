@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState, useEffect, useRef } from 'react'
 import "../styles/Letter.css"
 import bday1 from "../images/bday1.gif"
 import bday2 from "../images/hug.gif"
@@ -6,13 +7,39 @@ import bday3 from "../images/house.gif"
 import bday4 from "../images/coding.gif"
 import bday5 from "../images/final.gif"
 import Video from "../images/letterbg.mp4"
+import ReactAudioPlayer from 'react-audio-player';
+import sound from '../audios/letter.mp3';
 
 const Letter = () => {
+    const [pauseState, setPauseState] = useState(false)
+
+    const player = useRef();
+    const toggleSound = () => {
+        console.log("hello")    
+        if(!pauseState){
+            player.current.audioEl.current.pause()
+        }
+        else{
+            player.current.audioEl.current.play()
+        }
+        setPauseState(!pauseState)
+    }
     return (
         <div>
             <video autoPlay muted loop id="bg">
                 <source src={Video} type="video/mp4"/>
             </video>
+            <ReactAudioPlayer
+            src={sound}
+            loop
+            autoPlay
+            volume={.1}
+            ref = {player}
+            />
+            {pauseState?
+            <div class = "musicToggle" onClick={()=>toggleSound()}>Music On</div>:
+            <div class = "musicToggle" onClick={()=>toggleSound()}>Music Off</div>
+            }
             <div class="book">
 
             <input type="checkbox" id="c1"/>

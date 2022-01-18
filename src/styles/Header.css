@@ -3,7 +3,7 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    height: 36px;
+    height: 48px;
     background-color: pink;
     text-align: center;
 }
@@ -54,5 +54,5 @@
     align-items: center;
     font-weight: bold;
     text-shadow: rgb(255, 255, 255) 1px 0 10px;
-    font-size: 2vw;
+    font-size: 1.4vw;
 }

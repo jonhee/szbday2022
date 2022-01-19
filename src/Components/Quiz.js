@@ -5,9 +5,6 @@ import db from "../firebase"
 import { ShowsQuestions } from '../Questions/ShowsQuestions'
 import { MusicQuestions } from '../Questions/MusicQuestions'
 import "../styles/Quiz.css"
-import gamesVid from "../images/gamesbg.mp4"
-import showsVid from "../images/showsbg.mp4"
-import musicVid from "../images/musicbg.mp4"
 import ReactAudioPlayer from 'react-audio-player';
 
 const Quiz = ({quizType}) => {
@@ -64,26 +61,6 @@ const Quiz = ({quizType}) => {
 
     return (
         <div>
-            {currentQuiz==PokeQuestions?
-            <div>
-            <video autoPlay muted loop id="bg">
-                <source src={gamesVid} type="video/mp4"/>
-            </video>
-            </div>
-            :
-            currentQuiz==ShowsQuestions?
-            <div>
-            <video autoPlay muted loop id="bg">
-                <source src={showsVid} type="video/mp4"/>
-            </video>
-            </div>
-            :
-            <div>
-            <video autoPlay muted loop id="bg">
-                <source src={musicVid} type="video/mp4"/>
-            </video>
-            </div>
-            }
             <div class = "flexQuiz">
                 {currQuestion<5?
                 <div class = "flexQuizT">
@@ -120,7 +97,7 @@ const Quiz = ({quizType}) => {
                 </div>
                 </div>:
                 <div class = "flexQuizT">
-                <div class = "optionChosen">You passed! Don't forget to save your score!</div>
+                <div class = "optionChosen">You passed! Don't forget to save your score! After you saved your score click Home to go back!</div>
                 <div class = "optionChosen">{savedStatus}</div>
                 <div class = "submitButton" onClick={()=>handleNew()}> Save Score! </div>
                 </div>}

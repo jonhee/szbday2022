@@ -123,4 +123,5 @@
 
 .lockedli:hover{
     background-color: rgb(156, 155, 155);
+    cursor: not-allowed;
 }
